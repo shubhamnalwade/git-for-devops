@@ -1,51 +1,81 @@
-#Git Commands Documentation
-This document lists various Git topics and their related commands for easy reference.
+# Git Commands
 
-Branch Management
-Listing branches
-git branch
+## 1. Initialization
+- **Create a new Git repository**:
+  
+  `git init`
 
-Create and switch to a new branch
-git checkout -b <branch-name>
+## 2. Configuration
+- **Set global username**:
+  
+  `git config --global user.name "LondheShubham153"`
 
-Switch to an existing branch
-git checkout <branch-name>
+- **Set global email**:
+  
+  `git config --global user.email "shubhamnath5@gmail.com"`
 
-Directory Navigation
-Navigate to a directory
-cd <directory-name>
+## 3. File Operations
+- **Create a new file**:
+  
+  `touch <filename>`
 
-Viewing Commit History
-View commit history
-git log
+- **Remove a file**:
+  
+  `rm <filename>`
 
-File Operations
-Open a file in Vim editor
-vim <file-name>
+- **Restore a deleted file**:
+  
+  `git restore <filename>`
 
-List files in the current directory
-ls
+## 4. Staging and Commit
+- **Check the status of the repository**:
+  
+  `git status`
 
-Checking Repository Status
-Check the status of the repository
-git status
+- **Add a file to the staging area**:
+  
+  `git add <filename>`
 
-Staging and Committing Changes
-Stage changes for commit
-git add <file-name>
+- **Commit changes with a message**:
+  
+  `git commit -m "your commit message"`
 
-Commit staged changes with a message
-git commit -m "Commit message"
+## 5. Branching
+- **Create a new branch**:
+  
+  `git checkout -b <branch_name>`
 
-Clearing Terminal
-Clear terminal screen
-clear
+- **Switch between branches**:
+  
+  `git checkout <branch_name>`
 
-History and Logs
-View command history
-history
+- **List all branches**:
+  
+  `git branch`
 
-Typos and Mistakes
-Incorrect command (typo)
-histoty
-This is a typo and should be history.
+## 6. Logs
+- **View commit history**:
+  
+  `git log`
+
+- **View concise commit history**:
+  
+  `git log --oneline`
+
+## 7. Remove from Staging
+- **Unstage a file (remove from index but keep in working directory)**:
+  
+  `git rm --cached <filename>`
+
+## 8. Miscellaneous
+- **View all files, including hidden ones**:
+  
+  `ls -a`
+
+- **Clear terminal screen**:
+  
+  `clear`
+
+- **View command history**:
+  
+  `history`
