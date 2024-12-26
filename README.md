@@ -21,4 +21,4 @@ copy the public key and add here https://github.com/settings/keys and
 also change the origin url like below :
 ubuntu@ip-172-31-22-63:~/github/git-for-devops$ git remote set-url origin git@github.com:shubhamnalwade/git-for-devops.git
 
-Using <git pull> merge the changes from remote to local
+Using (git pull) merge the changes from remote to local
