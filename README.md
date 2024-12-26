@@ -9,4 +9,9 @@ ubuntu@ip-172-31-22-63:~/github/git-for-devops$ git push
 Username for 'https://github.com':  shubhamnalwade
 Password for 'https:// shubhamnalwade@github.com': <token generated from github account>
 
-2)by changing the origin/remote url like below :
+2) By changing the origin/remote url like below :
+ubuntu@ip-172-31-22-63:~/github/git-for-devops$ git remote set-url origin  https://<secret-token>/shubhamnalwade/git-for-devops.git
+ubuntu@ip-172-31-22-63:~/github/git-for-devops$ git remote -v
+origin  https://<token>/shubhamnalwade/git-for-devops.git (fetch)
+origin  https://<token>/shubhamnalwade/git-for-devops.git (push)
+ubuntu@ip-172-31-22-63:~/github/git-for-devops$ git push origin main
