@@ -14,7 +14,7 @@ ubuntu@ip-172-31-22-63:~/github/git-for-devops$ git remote -v
 ubuntu@ip-172-31-22-63:~/github/git-for-devops$ git push origin main
 *note : we can use only <git push> as well to push the changes to remote repo.
 
-3) Using ssh key
+3) Using ssh key :
 
 Generate the public and private key using ssh-keygen under .ssh folder and 
 copy the public key and add here https://github.com/settings/keys and
