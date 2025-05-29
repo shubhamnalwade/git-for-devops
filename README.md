@@ -1,4 +1,4 @@
-This file used for understanding the concept of GitHub.
+This file used for understanding the concept of GitHub like how to push the changes from local to GitHub.
 
 1) By adding user name and password like below :
 
